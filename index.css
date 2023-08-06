@@ -1,0 +1,83 @@
+/* Первое Задание */
+
+h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div > p {
+    color: red;
+}
+
+.text-box p:nth-child(7) {
+    color: green;
+  }
+
+.yellow {
+    color: yellow;
+}
+
+
+
+/* Второе Задание */
+.lessons {
+    display: flex;
+    font-size: 20px;
+    gap: 60px;
+}
+
+li:first-child {
+    color: purple;
+}
+
+li:nth-child(2) {
+    color: red;
+}
+
+li:nth-child(3) {
+    color: brown;
+}
+
+li:nth-child(4) {
+    color: blue;
+}
+
+li:last-child {
+    color: yellow;
+}
+
+li:first-child:hover {
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+ul li:active {
+    transform: scale(1.1); 
+  }
+  
+
+  ul li:focus {
+    outline: 2px solid #0000ff; 
+  }
+  
+ 
+  ul li:first-child {
+    font-weight: bold; 
+  }
+  
+
+  ul li:last-child {
+    text-decoration: underline; 
+  }
+  
+  
+ 
+  
+  
+  
+  
+  
+  
